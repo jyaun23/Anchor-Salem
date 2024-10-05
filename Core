@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Anchor Salem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <a href="index.html" class="logo">The Anchor Salem</a>
+            <nav>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to The Anchor Salem</h1>
+            <p>Your community gathering space located in the heart of Salem, MA.</p>
+            <a href="events.html" class="cta-button">See Upcoming Events</a>
+        </section>
+        <section class="about">
+            <h2>About The Anchor Salem</h2>
+            <p>The Anchor is a cultural space that offers food, drinks, live entertainment, and a great atmosphere for everyone. Conveniently located in Salem, we provide a welcoming experience for locals and visitors alike.</p>
+        </section>
+        <section class="location">
+            <h2>Our Location</h2>
+            <p>Find us at: 123 Salem Street, Salem, MA 01970</p>
+            <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <p>Check out our exciting schedule of events, live music, and community gatherings right here in Salem.</p>
+            <a href="events.html" class="cta-button">View Events</a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 The Anchor Salem. All rights reserved.</p>
+            <ul class="social-media">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
